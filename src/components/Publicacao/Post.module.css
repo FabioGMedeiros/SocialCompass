@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@600;700&display=swap');
+
+.post-section {
+    align-items: center;
+}
+
+.imgPerfil {
+    display: flex;
+}
+
+.postForm {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 2px solid var(--gray-gray-600, #2E2F36);
+    border-radius: 16px;
+    background-color: #1E1F23;
+    margin-left: 20px;
+    margin-right: 335px;
+    box-sizing: border-box;
+}
+
+.postForm.shrink {
+    margin-left: 300px;
+}
+
+.textarea {
+    display: flex;
+    color: #F5F5F5;
+    padding: 8px 24px;
+    align-items: center;
+    flex: 1 0 0;
+    border-radius: 46px;
+    border: none;
+    background: var(--gray-gray-650, #27282F);
+}
+
+.textarea::placeholder {
+    font-family: 'Poppins', sans-serif;
+}
+
+.leftButton {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    gap: 10px;
+}
+
+.leftButton img {
+    width: 25px;
+    height: 25px;
+}
+
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.submitButton {
+    display: flex;
+    color: #F5F5F5;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: auto;
+    padding: 16px 24px;
+    border-radius: 46px;
+    border: 1px solid var(--orange, #FE2E05);
+    background: var(--gradient-button, linear-gradient(180deg, #AD2D14 0%, #F42E07 100%));
+}
+
+.submitButton:hover {
+    color: #17181C;
+    font-family: 'Poppins', sans-serif;
+}
+
+.user {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+
+@media only screen and (max-height: 932px) {
+    .postForm {
+        display: flex;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
