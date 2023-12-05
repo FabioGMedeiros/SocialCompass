@@ -1,0 +1,13 @@
+.user-info {
+    display: flex;
+}
+
+@media only screen and (max-height: 932px) {
+    .meu-perfil {
+        overflow-y: hidden;
+    }
+
+    .user-info {
+        flex-direction: column;
+    }
+}
