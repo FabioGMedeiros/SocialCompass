@@ -1,0 +1,38 @@
+.card-info {
+  display: flex;
+  flex-direction: column;
+  width: 368px;
+  height: 405px;
+  border: 2px solid #2E2F36;
+  border-radius: 16px;
+  margin-top: 40px;
+  margin-left: 400px;
+  gap: 4px;
+}
+
+.card-info h1 {
+  color: #F5F5F5;
+  margin-left: 20px;
+}
+
+.card-info p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #F5F5F5;
+  margin-left: 20px;
+}
+
+.card-info img {
+  width: 24px;
+  height: 24px;
+}
+
+@media only screen and (max-height: 932px) {
+  .card-info {
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 406px;
+    height: 405px;
+  }
+}
