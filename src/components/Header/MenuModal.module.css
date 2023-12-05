@@ -1,0 +1,73 @@
+.menuModalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0; 
+  width: 300px; 
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+.menuModalContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 42px 10px;
+  gap: 48px;
+  align-self: stretch;
+  border: 2px solid var(--gray-gray-600, #2E2F36);
+  background: var(--gray-gray-700, #1E1F23);
+}
+
+.img_menu {
+  max-width: 100%;
+  height: auto;
+  max-height: 100px;
+}
+
+.buttonContainer {
+  border: 2px solid var(--gray-gray-600, #2E2F36);
+  border-radius: 8px;
+}
+
+.menuButton {
+  background-color: transparent; 
+  color: var(--white, #F5F5F5);
+  padding: 20px ;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+
+.menuButton:hover {
+  color: #FE2E05;
+}
+
+.selectedButton {
+  background-color: #fe2e05;
+  color: var(--gray-gray-700, #1E1F23);
+}
+
+.selectedButton:hover {
+  color: #F5F5F5;
+}
+
+
+@media only screen and (max-height: 932px) {
+  .menuModalOverlay {
+    width: 430px; 
+  }
+
+}
