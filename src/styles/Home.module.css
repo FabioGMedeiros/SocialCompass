@@ -1,0 +1,15 @@
+body {
+  background-color: #1E1F23;
+}
+
+.pagina-inicial {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  height: 100vh;
+}
+
+.fix {
+  top: 0;
+  left: 0;
+}
