@@ -1,0 +1,220 @@
+.feed {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.lks {
+  margin-left: 8px;
+  color: #F5F5F5;
+  align-items: center;
+  justify-items: center;
+  padding: 1px 21px;
+  border-radius: 45%;
+  border: 1px solid #A1A3A7;
+  background-color: #A1A3A7;
+}
+
+.like,
+.tree,
+.sms {
+  margin-right: 8px;
+}
+
+.feed.shrink {
+  margin-left: 300px;
+}
+
+.postContainer {
+  display: flex;
+  width: 1560px;
+  flex-direction: column;
+  border: 2px solid #2E2F36;
+  border-radius: 16px;
+  padding: 16px;
+  margin-bottom: 16px;
+  margin-left: 20px;
+  background-color: #27282F;
+  box-sizing: border-box;
+}
+
+.postContainer img {
+  max-width: 100%;
+}
+
+.postHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.imgPerfil {
+  display: flex;
+  align-items: flex-start;
+  align-items: center;
+}
+
+.profileImage {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+
+.postContainer h2 {
+  margin: 0;
+  font-size: 1em;
+  color: #FFFFFF;
+}
+
+.postContainer p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #FFFFFF;
+}
+
+.postText {
+  margin-bottom: 8px;
+}
+
+.postImage {
+  max-width: 50%;
+  margin-top: 8px;
+  border-radius: 8px;
+}
+
+.postActions {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.postActions button {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 0 0 0 10px;
+}
+
+.textarea {
+  display: flex;
+  width: 1400px;
+  color: #F5F5F5;
+  padding: 8px 24px;
+  align-items: center;
+  flex: 1 0 0;
+  border-radius: 46px;
+  border: none;
+  background-color: #2E2F36;
+}
+
+.container {
+  position: relative;
+  align-items: center;
+  display: flex;
+}
+
+.camera,
+.quadro,
+.clip,
+.loc,
+.hpy {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.camera {
+  right: 200px;
+}
+
+.quadro {
+  right: 170px;
+}
+
+.clip {
+  right: 140px;
+}
+
+.loc {
+  right: 110px;
+}
+
+.hpy {
+  right: 80px;
+}
+
+@media only screen and (max-height: 932px) {
+  .feed {
+    display: flex;
+    margin-left: -7px;
+    overflow-x: hidden;
+  }
+
+  .postContainer {
+    display: flex;
+    width: 406px;
+  }
+
+  .postActions {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-left: 0;
+    gap: 30px;
+  }
+
+  .postActions button {
+    display: flex;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  .textarea {
+    display: flex;
+    width: 292px;
+    height: 39px;
+  }
+
+  .camera,
+  .quadro,
+  .clip,
+  .loc,
+  .hpy {
+    position: absolute;
+    top: 80%;
+  }
+
+  .camera {
+    left: 20px;
+  }
+
+  .quadro {
+    left: 60px;
+  }
+
+  .clip {
+    left: 90px;
+  }
+
+  .loc {
+    left: 120px;
+  }
+
+  .hpy {
+    left: 150px;
+  }
+
+  .like,
+  .tree,
+  .sms {
+    margin-right: 0;
+    gap: 8px;
+  }
+}
