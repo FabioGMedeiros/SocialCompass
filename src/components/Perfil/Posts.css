@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@600;700&display=swap');
+
+body {
+    overflow-y: auto;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container3 {
+    display: flex;
+    position: relative;
+    width: 400px;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 180px;
+}
+
+.headerP {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #2E2F36;
+    color: #E9B425;
+}
+
+.main {
+    font-family: 'Poppins', sans-serif;
+}
+
+.userPosts {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: -160px;
+}
+
+.lks {
+    margin-left: 8px;
+    color: #F5F5F5;
+    align-items: center;
+    justify-items: center;
+    padding: 1px 21px;
+    border-radius: 45%;
+    border: 1px solid #A1A3A7;
+    background-color: #A1A3A7;
+}
+
+.like,
+.tree,
+.sms {
+    margin-right: 8px;
+}
+
+.postContainer {
+    display: flex;
+    width: 668px;
+    flex-direction: column;
+    border: 2px solid #2E2F36;
+    border-radius: 16px;
+    padding: 16px;
+    margin-bottom: 16px;
+    margin-left: 20px;
+    background-color: #27282F;
+    box-sizing: border-box;
+}
+
+.postContainer img {
+    max-width: 50%;
+}
+
+.postHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.imgPerfil5 {
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+}
+
+.profileImage {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+
+.postContainer h2 {
+    margin: 0;
+    font-size: 1em;
+    color: #FFFFFF;
+}
+
+.postContainer p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #FFFFFF;
+}
+
+.postText {
+    margin-bottom: 8px;
+}
+
+.postImage {
+    max-width: 50%;
+    margin-top: 8px;
+    border-radius: 8px;
+}
+
+.postActions {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.postActions button {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 0 0 0 10px;
+}
+
+.textarea {
+    display: flex;
+    width: 545px;
+    color: #F5F5F5;
+    padding: 8px 24px;
+    align-items: center;
+    flex: 1 0 0;
+    border-radius: 46px;
+    border: none;
+    background-color: #2E2F36;
+}
+
+.container2 {
+    position: relative;
+    align-items: center;
+    display: flex;
+}
+
+.camera,
+.quadro,
+.clip,
+.loc,
+.hpy {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.camera {
+    right: 200px;
+}
+
+.quadro {
+    right: 170px;
+}
+
+.clip {
+    right: 140px;
+}
+
+.loc {
+    right: 110px;
+}
+
+.hpy {
+    right: 80px;
+}
+
+@media only screen and (max-height: 932px) {
+    .container3 {
+        width: 406px;
+        display: flex;
+        position: relative;
+        width: 400px;
+        flex-direction: column;
+        padding: 0;
+        margin-left: 0;
+    }
+
+    .container1 {
+        justify-content: flex-start;
+        width: 430px;
+        margin-left: 20px;
+    }
+
+    .headerP {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 350px;
+        margin-left: 10px;
+    }
+
+    .userPosts {
+        display: flex;
+        margin-left: -7px;
+        overflow-x: hidden;
+    }
+
+    .lks {
+        margin-left: 8px;
+        color: #F5F5F5;
+        align-items: center;
+        justify-items: center;
+        padding: 1px 21px;
+        border-radius: 45%;
+        border: 1px solid #A1A3A7;
+        background-color: #A1A3A7;
+    }
+
+    .postContainer {
+        display: flex;
+        width: 406px;
+        margin-left: 0;
+    }
+
+    .postActions {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        margin-left: 0;
+        gap: 30px;
+    }
+
+    .postActions button {
+        display: flex;
+        background: none;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        font-size: 14px;
+
+    }
+
+    .textarea {
+        display: flex;
+        width: 278px;
+        height: 39px;
+    }
+
+    .camera,
+    .quadro,
+    .clip,
+    .loc,
+    .hpy {
+        position: absolute;
+        top: 80%;
+    }
+
+    .camera {
+        left: 20px;
+    }
+
+    .quadro {
+        left: 60px;
+    }
+
+    .clip {
+        left: 90px;
+    }
+
+    .loc {
+        left: 120px;
+    }
+
+    .hpy {
+        left: 150px;
+    }
+
+    .like,
+    .tree,
+    .sms {
+        margin-right: 0;
+        gap: 8px;
+    }
+}
