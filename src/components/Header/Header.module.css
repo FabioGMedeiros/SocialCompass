@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    background-color: #27282F;
+    box-sizing: border-box;
+}
+
+.header.shrink {
+    padding-left: 300px;
+}
+
+.leftSection {
+    display: flex;
+    align-items: center;
+}
+
+.rightSection p {
+    display: flex;
+    padding-right: 10px;
+}
+
+.rightSection {
+    display: flex;
+}
+
+.menuButton {
+    display: flex;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.user {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
